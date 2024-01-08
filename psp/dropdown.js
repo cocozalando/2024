@@ -17,13 +17,15 @@ function getSubChannel(){
 
                 list2.options.length=0;
 
-                list2.options[1] = new Option('google dv360 exch.', '01');
-                list2.options[2] = new Option('google dv360 direct deals', '02');
-                list2.options[3] = new Option('google gdn', '03');
-                list2.options[4] = new Option('google youtube', '04');
-                list2.options[5] = new Option('direct buys', '05');
+                list2.options[1] = new Option('display', '01');
+                list2.options[2] = new Option('direct deals', '02');
+                list2.options[3] = new Option('google gdn (no use)', '03');
+                list2.options[4] = new Option('google youtube (no use)', '04');
+                list2.options[5] = new Option('direct buys (no use)', '05');
                 list2.options[6] = new Option('other', '06');
-
+                list2.options[7] = new Option('audio', '07');
+                list2.options[8] = new Option('ooh', '08');
+                list2.options[9] = new Option('tv', '09');
 
             }
 
@@ -37,7 +39,7 @@ function getSubChannel(){
                 list2.options[1] = new Option('meta', '01');
                 list2.options[2] = new Option('snap', '02');
                 list2.options[3] = new Option('tiktok', '03');
-                list2.options[4] = new Option('twitter', '04');
+                list2.options[4] = new Option('x (twitter)', '04');
                 list2.options[5] = new Option('pinterest', '05');
                 list2.options[6] = new Option('other', '06');
 
@@ -193,6 +195,7 @@ function getSubChannel(){
 
                 list2.options[1] = new Option('gc b2b', '01');
                 list2.options[2] = new Option('gc retail', '02');
+                list2.options[3] = new Option('gc b2c', '03');
 
             }
             
@@ -393,6 +396,15 @@ function getSubChannel(){
                 list2.options.length=0;
 
                 list2.options[1] = new Option('tbd', '01');
+
+            }
+
+            else if (list1SelectedValue=='037')
+            {
+
+                list2.options.length=0;
+
+                list2.options[1] = new Option('direct buys', '01');
 
             }
 
